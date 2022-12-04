@@ -343,7 +343,10 @@ align-content: center;
     text-decoration: none;
     color: hsl(12, 88%, 59%);
 }
-
+#copy{
+    color: gray;
+    margin: 0;
+}
 
 /*End footer*/
 
@@ -494,6 +497,7 @@ align-content: center;
     
     #copy{
         color: gray;
+        margin: 0;
     }
 }
 
@@ -641,6 +645,7 @@ align-content: center;
     }
     #copy{
         color: gray;
+        margin: 0;
     }
 }
 /*End Media Query*/
