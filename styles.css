@@ -437,13 +437,16 @@ align-content: center;
     }
     #comments{
         flex-direction: column;
-        width: 100%;
+       
+       
     }
 
     #comments .person{
-        max-width: 80%;
-        margin-top: 45px;
-        margin-left: 30px;
+        
+        
+        
+        align-items: center;
+        align-content: center;
        
     }
 
@@ -458,6 +461,11 @@ align-content: center;
         align-items: center;
     }
 
+    
+    #foot-list{
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
 
     .fifth-section{
         flex-direction: column;
@@ -484,6 +492,9 @@ align-content: center;
         left: -30px;
     }
     
+    #copy{
+        color: gray;
+    }
 }
 
 @media screen and (max-width: 800px){
@@ -583,7 +594,6 @@ align-content: center;
     #comments .person{
         max-width: 80%;
         margin-top: 45px;
-        margin-left: 30px;
        
     }
 
@@ -628,6 +638,9 @@ align-content: center;
     .footer-form p{
         position: relative;
         left: -30px;
+    }
+    #copy{
+        color: gray;
     }
 }
 /*End Media Query*/
